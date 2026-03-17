@@ -1,11 +1,5 @@
-The pretrained model weights (QAHAT_best.pth) and test results can be downloaded from the following links:
+The pretrained model weights (QAHAT_best.pth) can be downloaded from the following links:
 
-1. GitHub Release (Primary):
-   https://github.com/ZaxWave/NTIRE2026_infraredSR_WHUVIP/releases/download/v1.0/QAHAT_best.pth
+https://github.com/ZaxWave/NTIRE2026_infraredSR_WHUVIP/releases/download/v1.0/QAHAT_best.pth
 
-2. Tmp.link (High-speed Backup):
-   https://ttttt.link/vx_dir/69b9506657f23
 
-3. Baidu Netdisk (Cloud Backup):
-   Link: https://pan.baidu.com/s/1kI2KKaxjqsW6pmdoUYRLAg?pwd=wswd
-   Password: wswd
