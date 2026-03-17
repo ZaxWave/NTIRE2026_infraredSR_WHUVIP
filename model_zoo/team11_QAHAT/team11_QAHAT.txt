@@ -1,5 +1,3 @@
-The pretrained model weights (QAHAT_best.pth) can be downloaded from the following links:
-
 https://github.com/ZaxWave/NTIRE2026_infraredSR_WHUVIP/releases/download/v1.0/QAHAT_best.pth
 
 
