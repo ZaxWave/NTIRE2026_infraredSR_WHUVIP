@@ -14,9 +14,9 @@
 This repository contains the official implementation of **QAHAT**, the solution developed by team **WHU-VIP** for the NTIRE 2026 Infrared Image Super-Resolution challenge.
 
 ### Key Features:
-- **QEM (Quality Estimation Module):** Dynamically assesses input quality to guide the restoration process.
-- **AFB (Adaptive Fusion Block):** Efficiently integrates spatial and channel-wise attention.
-- **SQA (Stacked Quality Attention):** Captures long-range dependencies tailored for infrared remote sensing textures.
+- **QEM (Quality Estimation Module):** A lightweight network that predicts a global quality descriptor of the input image.
+- **LQAM (Local Quality-Aware Module)::** A local quality branch that captures spatially varying artifacts using a downsampling–upsampling structure with a large receptive field.
+- **SQA (Source Quality Adapter):** Injects the predicted quality representation into multiple stages of the HAT backbone.
 - **Optimized Loss:** Trained with a custom weighted loss: $\mathcal{L} = -PSNR - 20 \cdot SSIM$.
 
 ---
@@ -30,7 +30,7 @@ This repository contains the official implementation of **QAHAT**, the solution 
 ## 📦 Installation
 ```bash
 # Clone the repository
-git clone [https://github.com/ZaxWave/NTIRE2026_infraredSR_WHUVIP.git](https://github.com/ZaxWave/NTIRE2026_infraredSR_WHUVIP.git)
+git clone https://github.com/ZaxWave/NTIRE2026_infraredSR_WHUVIP.git
 cd NTIRE2026_infraredSR_WHUVIP
 
 # Create environment
