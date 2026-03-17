@@ -1,1 +1,0 @@
-https://github.com/ZaxWave/NTIRE2026_infraredSR_WHUVIP/releases/download/v1.0/QAHAT_best.pth
